@@ -222,9 +222,13 @@ let closeIcon = document.getElementById("closeIcon");
 menuIcon.addEventListener("click" , () => {
     sideMenu.style.right = "0%"
 })
-closeIcon.addEventListener("click" , () => {
+// closeIcon.addEventListener("click" , () => {
+//     sideMenu.style.right = "-100%"
+// })
+const closeMenu = () => {
     sideMenu.style.right = "-100%"
-})
+}
+
 
 
 let workflowImage = document.getElementById("workflowImage");
